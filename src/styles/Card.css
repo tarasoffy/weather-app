@@ -1,0 +1,62 @@
+p {
+    margin: 8px 0;
+    color: rgb(88, 88, 88);
+}
+
+span {
+    color: black;
+    font-weight: 500;
+}
+
+.Card{
+    width: 160px;
+    height: 280px;
+    margin-top: 20px;
+    border: 1px solid #BEBEBE;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px;
+    background-color: #dfdfdf;
+}
+
+.Card:not(:last-child){
+    margin-right: 20px;
+}
+
+.header {
+    display: flex;
+    position: relative;
+}
+
+.description {
+    height: 100px;
+    position: absolute;
+    right: 0;
+}
+
+.description img{
+    width: 70px;
+    height: 70px;
+}
+
+.description p {
+    width: 50px;
+    position: absolute;
+    top: 50px;
+}
+
+.main {
+    height: 120px;
+}
+
+.temp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date span{
+    font-size: 20px;
+    margin-right: 5px;
+}

@@ -1,0 +1,23 @@
+input {
+    margin-bottom: 20px;
+    height: 25px;
+    border: 1px solid #BEBEBE;
+    border-radius: 4px;
+}
+
+button {
+    cursor: pointer;
+    height: 25px;
+    border: 1px solid #EC6E4C;
+    background-color: #EC6E4C;
+    /* color: rgb(68, 68, 68); */
+    color: white;
+    border-radius: 4px;
+}
+
+.serch {
+    width: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
